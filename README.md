@@ -1,45 +1,68 @@
-AGELOCK : A PRIVACY PRESERVING BROWSER WITH ON DEVICE AGE BASED CONTENT FILTERING
+# AgeLock Minimal Browser
 
-ABSTRACT:
+A secure, age-appropriate web browser with built-in content filtering and parental controls.
 
-We present AgeLock , AgeLock Browser is a privacy-first desktop browser built on Electron, offering local, on-device filtering tailored to children (5–12), teens (13–17), and adults (18+). It enforces age-based content rules—strict for younger kids, moderate for teens, and minimal for adults—without sending browsing data to the cloud, ensuring no history collection or external telemetry. Users access broader content only via PINs or security question verification, and parents can further customize filters. Integrated search filtering and SafeSearch ensure age-appropriate results, while the built in video player intelligently detects and controls video playback. All functionality—from regex-based keyword filtering, URL classification, and DOM analysis, to secure PIN protection—is implemented client-side using modern web technologies (HTML5/CSS3/JavaScript) and Electron, delivering robust, privacy protected age appropriate web access.
+## Features
 
-Keywords : Age-adaptive filtering, client-side security, explainable blocking, privacy-preserving, Zero-data-leakage architecture, DOM analysis, SafeSearch integration
+- **Age-based Content Filtering**: Automatically filters content based on the selected age group
+- **Parental Controls**: PIN protection for changing settings
+- **Security Questions**: Additional verification for sensitive actions
+- **Simple Interface**: Clean and intuitive user interface
+- **Secure Browsing**: Built-in protection against inappropriate content
 
-REQUIREMENTS:
+## Getting Started
 
-* SOFTWARE REQUIREMENTS
+### Prerequisites
 
-  •	 Tech Stack  : Electron.js 20+ , HTML5/CSS3/JS(ES6+) , Node.js 16+ 
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-  •	Security         : Web Crypto API , bcrypt.js(Local PIN Hashing)
+### Installation
 
-  •	Workspace    : VS Code  , Jest/Spectron (testing)
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-  •	Deployment: Windows 10/11
+### Running the Application
 
-* HARDWARE REQUIREMENTS
- 
-  •	Processor : Dual-core CPU, 1.8 GHz or faster
+1. Start the development server:
+   ```
+   npm start
+   ```
+2. The application will open automatically in a new window
 
-  •	RAM        :  4 GB
+## Usage
 
-  •	Storage    :  500 MB available space
+1. Select an age group when prompted
+2. Set up a parental control PIN (recommended)
+3. Browse the web with age-appropriate content filtering
 
-  •	OS           :  Windows 10/11
+## Age Groups
 
-* PROPOSED METHODOLOGY:
-   <img width="959" height="756" alt="image" src="https://github.com/user-attachments/assets/00646446-6576-4a36-bc36-9386e1f7720c" />
+- **Child (5-12 years)**: Strict filtering with educational focus
+- **Teenager (13-17 years)**: Moderate filtering with some flexibility
+- **Adult (18+ years)**: Minimal filtering with full access
 
-* PERFORMANCE METRICS:
-  
-   <img width="599" height="383" alt="image" src="https://github.com/user-attachments/assets/a095bbe6-d578-4e1a-b79b-bb3f17fe31c0" />
-   
+## Security
 
-   <img width="595" height="423" alt="image" src="https://github.com/user-attachments/assets/618e2ec8-4971-438e-9fa3-7e3783ae6146" />
+- All sensitive data is stored securely
+- Content is filtered locally for privacy
+- Parental controls prevent unauthorized changes to settings
 
+## Building for Production
 
+To create a production build:
 
+```
+npm run build
+```
 
+## License
 
+ISC
 
+## Support
+
+For support, please open an issue in the repository.
