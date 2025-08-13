@@ -8,23 +8,23 @@ Keywords : Age-adaptive filtering, client-side security, explainable blocking, p
 
 REQUIREMENTS:
 
-*SOFTWARE REQUIREMENTS
+* SOFTWARE REQUIREMENTS
 
-•	 Tech Stack  : Electron.js 20+ , HTML5/CSS3/JS(ES6+) , Node.js 16+ 
+  •	 Tech Stack  : Electron.js 20+ , HTML5/CSS3/JS(ES6+) , Node.js 16+ 
 
-•	Security         : Web Crypto API , bcrypt.js(Local PIN Hashing)
+  •	Security         : Web Crypto API , bcrypt.js(Local PIN Hashing)
 
-•	Workspace    : VS Code  , Jest/Spectron (testing)
+  •	Workspace    : VS Code  , Jest/Spectron (testing)
 
-•	Deployment: Windows 10/11
+  •	Deployment: Windows 10/11
 
- * HARDWARE REQUIREMENTS
+* HARDWARE REQUIREMENTS
  
-•	Processor : Dual-core CPU, 1.8 GHz or faster
+  •	Processor : Dual-core CPU, 1.8 GHz or faster
 
-•	RAM        :  4 GB
+  •	RAM        :  4 GB
 
-•	Storage    :  500 MB available space
+  •	Storage    :  500 MB available space
 
-•	OS           :  Windows 10/11
+  •	OS           :  Windows 10/11
 
