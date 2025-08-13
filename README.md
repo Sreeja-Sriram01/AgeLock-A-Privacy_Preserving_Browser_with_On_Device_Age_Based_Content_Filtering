@@ -28,3 +28,7 @@ REQUIREMENTS:
 
   •	OS           :  Windows 10/11
 
+* PROPOSED METHODOLOGY:
+   <img width="959" height="756" alt="image" src="https://github.com/user-attachments/assets/00646446-6576-4a36-bc36-9386e1f7720c" />
+
+
